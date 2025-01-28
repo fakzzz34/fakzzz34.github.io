@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6e7dff, #56c0e1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    max-width: 90%;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    border-color: #017f2e;
+    outline: none;
+  }
+  
+  button {
+    background-color: #017f2e;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #015a21;
+  }
+  
+  .result-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #bmi-result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #bmi-description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  /* Mobile */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px 15px;
+    }
+    h1 {
+      font-size: 25px;
+    }
+    button {
+      font-size: 16px;
+    }
+  }
+  
